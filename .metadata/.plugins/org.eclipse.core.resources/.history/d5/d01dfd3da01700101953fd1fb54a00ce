@@ -1,0 +1,35 @@
+package swaglab_pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import swaglab_test.BaseClass;
+
+public class ProductsPage {
+
+	WebDriver driver = BaseClass.driver;
+	
+	//============ Locators ==============
+	
+		@FindBy(xpath = "//a[@data-test='shopping-cart-link']")
+		WebElement CartIcon;
+		
+		
+		//============= Methods ===============
+		
+		public ProductsPage() {
+			
+			PageFactory.initElements(driver, this);
+		}
+		
+public void AddtoCart (String ProductName) {
+		
+		String Productxpath =  "//div[text()='" + ProductName + "']//following::button[1]";
+		
+		WebElement AddtoCart = driver.findElement(By.xpath(Productxpath));
+		AddtoCart.click();
+		
+	}
+	
+}

@@ -1,0 +1,9 @@
+package swaglab_pages;
+
+public class ProductsPage {
+	
+	public void AddtoCart (String ProductName)
+	
+	String Xpath = "//div[text()='Sauce Labs Backpack']//following::button[1]"
+
+}

@@ -1,0 +1,25 @@
+package oops;
+
+public class RunnerClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Employee emp1 = new Employee();
+		Employee emp2 = new Employee();
+
+		emp1.name = "Niharika";
+		emp1.empId = 1000;
+		emp1.salary = 5000;
+
+		emp1.displayData();
+
+		emp2.name = "Ranjith";
+		emp2.empId = 1001;
+		emp2.salary = 5500;
+
+		emp2.displayData();
+
+	}
+
+}
