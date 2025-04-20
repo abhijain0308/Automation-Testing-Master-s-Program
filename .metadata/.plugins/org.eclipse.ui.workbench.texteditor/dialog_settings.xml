@@ -2,7 +2,11 @@
 <section name="Workbench">
 	<item key="hasShownOverlayPopupBefore" value="true"/>
 	<section name="java.lang.Class">
+		<item key="replaceBarOpen" value="false"/>
 		<list key="findhistory">
+			<item value="Pizzas"/>
+			<item value="https://www.pizzahut.co.in/order/deals/"/>
+			<item value="//input[@id=&apos;checkout__name&apos;]"/>
 			<item value="Sauce Labs Backpack"/>
 		</list>
 	</section>

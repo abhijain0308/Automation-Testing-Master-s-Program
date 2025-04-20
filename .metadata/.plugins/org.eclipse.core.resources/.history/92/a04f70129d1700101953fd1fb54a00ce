@@ -1,9 +1,0 @@
-package swaglab_pages;
-
-import swaglab_test.BaseClass;
-
-public class ProductsPage {
-
-Webdriver driver = BaseClass.driver;
-	
-}

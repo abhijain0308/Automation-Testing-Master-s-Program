@@ -6,28 +6,30 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 
 public class BaseClass {
+	
 
-	@BeforeTest (alwaysRun = true)
+	@BeforeTest
 	public void method3() {
-		System.out.println("Inside before test");
+		System.out.println("Inside before test");	
 	}
-
-	@AfterTest (alwaysRun = true)
+	
+	@AfterTest
 	public void method4() {
-		System.out.println("Inside after test");
-
+		System.out.println("Inside after test");	
+		
 	}
-
-	@BeforeMethod (alwaysRun = true)
+	
+	@BeforeMethod
 	public void method1() {
-		System.out.println("Inside before method");
+		System.out.println("Inside before method");	
 	}
-
-	@AfterMethod  (alwaysRun = true)
+	
+	
+	@AfterMethod
 	public void method2() {
 		System.out.println("Inside after method");
 	}
-		
-		
-	}
+	
+
+}
 

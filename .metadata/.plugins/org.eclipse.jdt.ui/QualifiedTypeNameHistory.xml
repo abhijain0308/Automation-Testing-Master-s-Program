@@ -3,5 +3,6 @@
     <fullyQualifiedTypeName name="org.openqa.selenium.By.ByXPath"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
     <fullyQualifiedTypeName name="swaglab_test.BaseClass"/>
+    <fullyQualifiedTypeName name="org.junit.Assert"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
 </qualifiedTypeNameHistroy>

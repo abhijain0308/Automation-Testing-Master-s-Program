@@ -17,7 +17,7 @@ Feature: Login Feature
     And I enter the Username "abc@xyz.com"
     And I enter the Password "Abc@12345"
     And I click on the Login button
-    Then I should be able to see the error message "The email address or password you have entered is invalid"
+    Then I should be able to see the error message "The email address or password you have entered is incorrect"
 
   @sanity @regression
   Scenario Outline: Login Failure Scenario using test data as Examples

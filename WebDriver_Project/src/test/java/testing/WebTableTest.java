@@ -18,8 +18,6 @@ public class WebTableTest {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
-		WebElement Table = driver.findElement(By.id("customers"));
-
 		// To find more than element use find elements method
 		List<WebElement> Rows = driver.findElements(By.xpath("//table[@id='customers']/tbody/tr"));
 		System.out.println("Total number of rows are " + Rows.size());
